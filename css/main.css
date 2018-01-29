@@ -1,14 +1,4 @@
-/*
-Theme Name: Restaurant
-Theme URI: http://themewagon.com/demo/Restaurant/
-Author: ThemeWagon
-Author URI: http://themewagon.com/
-Description: 
-Version: 1.0
-License: GNU General Public License v3 or later
-License URI: http://www.gnu.org/licenses/gpl-3.0.html
-Text Domain: restaurant
-*/
+
 /*========================
 GLOBAL
 =========================*/
@@ -26,7 +16,7 @@ p.desc-text{
     text-align: justify;
 }
 .text-content.container {
-    margin-top: 65px;
+    margin-top: 30px;
     margin-bottom: -51px;
 }
 .right-text p{
@@ -95,8 +85,7 @@ p.desc-text{
 li.item{
     position: relative; 
     width: 100%; /* for IE 6 */
-
-    background: rgba(211, 15, 34, 1);
+    background: white;
 }
 
 .icon_knife {
@@ -151,14 +140,15 @@ h1, h2, p, span, a {
 INTRO CONTAINER
 =========================*/
 .starter_container {
-    margin-top: -21px;
+    margin-top: 50px;
     padding: 0;
     min-width: 100%;
-    height: 100%;
-    background: url('../images/steak.jpg') no-repeat center center;
+    height: 500px !important;
+    background: url('../images/wall_mural.jpg');
+    background-repeat: no-repeat;
+    background-position: center-top;
     background-size: cover;
     text-align: center;
-    background-position: center;  
 }
 .follow_container {
     width: 100%;
@@ -238,7 +228,7 @@ INTRO CONTAINER
     background-position: center;
     background-attachment: fixed;
 }
- .pricing.background_content{
+ .menu.background_content{
     background: url('../images/pricing.jpg') no-repeat center center; 
     background-size: cover;
     background-position: center;
@@ -303,9 +293,9 @@ FIRST FOOTER CONTENT
 .social_heading {
     font-size: 28px;
     font-weight: 900;
-    letter-spacing: 0.040em;
-    color: #63C85D;
+    letter-spacing: 0.040em;    
     text-align: center;
+    color: white;
     margin: 40px 0 0 0;
 }
 .social_info, 
@@ -326,7 +316,7 @@ FIRST FOOTER CONTENT
 }
 
 .social_info a:hover {
-    color: #6c8f34;
+    color: orange;
 }
 
 .social_icons {
@@ -351,7 +341,7 @@ FIRST FOOTER CONTENT
 }
 
 .social_icons li a:hover {
-    color: #6c8f34;
+    color: orange;
 }
 
 .direction a{
@@ -645,7 +635,7 @@ MEDIA QUERIES TABLET
         transition: color 0.3s ease-in-out;
     }
     .main-nav a:hover {
-        color: #6c8f34;
+        color: orange;
     }
     .direction a {
         border: 5px solid rgba(0,0,0,0);
@@ -847,4 +837,61 @@ MEDIA QUERIE DESKTOP
     width: 240px;
     position: relative;
     top: -10px;
+}
+
+#about-us-pic {
+    width: 600px;
+}
+
+#social-icons {
+    margin-top: 18px;
+    color: white;
+    font-size: 30px;
+}
+
+#social-icons i {
+    padding-left: 10px;
+}
+
+#social-icons a {
+    color: white;
+}
+
+#social-icons a:hover {
+    color: orange;
+}
+
+#hours {
+    font-family: "museo-sans", helvetica, sans-serif;
+    width: 29%;
+    display:inline-block;
+    vertical-align: top;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+#hours td {
+    padding-left: 15px;
+}
+
+#hours .day {
+    font-weight: bold;
+}
+
+#hours td {
+    padding-bottom: 3px;
+}
+
+
+.map {
+    width: 70%;
+    display:inline-block;
+}
+
+#downloadable-menu {
+    padding-top: 20px;
+}
+
+#downloadable-menu a:hover {
+    color: orange;
 }
