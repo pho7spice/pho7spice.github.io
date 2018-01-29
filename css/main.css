@@ -901,3 +901,7 @@ MEDIA QUERIE DESKTOP
     min-height: 80px !important;
     padding-top: 20px;
 }
+
+#filter-list.clearfix {
+    padding-left: 0px;
+}
