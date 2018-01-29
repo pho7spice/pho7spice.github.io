@@ -897,7 +897,7 @@ MEDIA QUERIE DESKTOP
     color: orange;
 }
 
-.navbar-fixed-top {
-    height: 80px;
+.custom-header {
+    min-height: 80px !important;
     padding-top: 20px;
 }
