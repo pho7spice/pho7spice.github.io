@@ -841,6 +841,7 @@ MEDIA QUERIE DESKTOP
 
 #about-us-pic {
     max-width: 600px;
+    width: 100%;
 }
 
 #social-icons {
