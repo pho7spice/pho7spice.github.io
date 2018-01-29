@@ -372,11 +372,11 @@ p.sub-footer-text a{
     margin:45px auto;
 }
 /* Contact Form */
-#contact .contact-form{
-    margin: 0 auto;
-    padding:25px 25px 0px 25px;
-    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.2);
-    /* -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.2); */
+#contact {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .mail-message-area{
@@ -863,7 +863,7 @@ MEDIA QUERIE DESKTOP
 
 #hours {
     font-family: "museo-sans", helvetica, sans-serif;
-    width: 29%;
+    /* width: 29%; */
     display:inline-block;
     vertical-align: top;
     padding-top: 30px;
@@ -884,7 +884,7 @@ MEDIA QUERIE DESKTOP
 
 
 .map {
-    width: 70%;
+    /* width: 70%; */
     display:inline-block;
 }
 
