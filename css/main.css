@@ -840,7 +840,7 @@ MEDIA QUERIE DESKTOP
 }
 
 #about-us-pic {
-    width: 600px;
+    max-width: 600px;
 }
 
 #social-icons {
@@ -894,4 +894,8 @@ MEDIA QUERIE DESKTOP
 
 #downloadable-menu a:hover {
     color: orange;
+}
+
+.navbar-fixed-top {
+    margin-top: 8px;
 }
