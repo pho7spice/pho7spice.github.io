@@ -425,7 +425,7 @@ p.sub-footer-text a{
 }
 
 .form:hover{
-    border:1px solid #8BC3A3;
+    border:1px solid orange;
 }
 
 .form:focus{
@@ -458,7 +458,7 @@ p.sub-footer-text a{
 }
 
 .button:hover{
-    background:#8BC3A3;
+    background:orange;
     color:white;
 }
 
@@ -485,7 +485,7 @@ p.sub-footer-text a{
     text-align: center;
 }
 .form-btn:hover{
-    background: rgba(85, 184, 120, 1);
+    background: orange;
     color: white;
     border:none;
 }
@@ -645,7 +645,7 @@ MEDIA QUERIES TABLET
         background-size: 30px; 
     }
     .direction a:hover {
-        border: 5px solid #6D903C;
+        border: 5px solid orange;
     }
 
     /*========================
