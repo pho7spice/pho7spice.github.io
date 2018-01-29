@@ -898,5 +898,6 @@ MEDIA QUERIE DESKTOP
 }
 
 .navbar-fixed-top {
-    margin-top: 8px;
+    height: 80px;
+    padding-top: 20px;
 }
